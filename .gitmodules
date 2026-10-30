@@ -1,0 +1,3 @@
+[submodule "lib/nrf24l01_driver"]
+	path = lib/nrf24l01_driver
+	url = ../nrf24l01_driver

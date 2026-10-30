@@ -1,0 +1,79 @@
+# Build output
+build/
+build-*/
+cmake-build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Toolchain output
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+*.su
+*.d
+*.dep
+*.a
+*.lib
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.vscode/ipch/
+.vscode/browse.vc.db*
+.vscode/.ropeproject
+
+# STM32CubeIDE / Eclipse
+.metadata/
+.settings/
+RemoteSystemsTempFiles/
+Debug/
+Release/
+
+# STM32CubeProgrammer
+*.pyc
+*.log
+*.dmp
+*.stldump
+
+# Static analysis
+.cache/
+.clangd/
+.ccls-cache/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor 
+*~
+*.swp
+*.swo
+*.orig
+*.bak
+
+# Env
+.env
+*.local
